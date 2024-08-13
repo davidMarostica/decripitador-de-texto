@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="logo">
+                <img src="imagen/logo.png" alt="">
+            </div>
+            <h2>Digite seu texto</h2>
+            <textarea id="inputText" placeholder="Digite o texto aqui..." style="height: 160px; width: 300px;"></textarea>
+            <div class="buttons">
+                <button id="encodeButton">Criptografar</button>
+                <button id="decodeButton">Descriptografar</button>
+            </div>
+            <p class="note">* Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="right-panel">
+            <div class="message">
+                <p class="no-message">autor: david aparecido da silva </p>
+                <p class="instruction">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="charada">
+                <img src="imagen/charada.jpg" alt="aleta">
+            </div>
+            <textarea id="outputText" placeholder="Resultado..." readonly></textarea>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
